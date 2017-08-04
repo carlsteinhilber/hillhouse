@@ -62,8 +62,8 @@ $statusArray=explode(' ',$devResponse);
 if( sizeof($statusArray) > 4){
    $statusStruct.=' "power":' . pullChars($statusArray[1]). ',';
    $statusStruct.=' "source":' . pullChars($statusArray[2]) . ',';
-   $statusStruct.=' "volume":' . pullChars($$statusArray[3]) . ',';
-   $statusStruct.=' "mute":' . pullChars(statusArray[4]);
+   $statusStruct.=' "volume":' . pullChars($statusArray[3]) . ',';
+   $statusStruct.=' "mute":' . pullChars($statusArray[4]);
 }
 
 $statusStruct.=' }';
