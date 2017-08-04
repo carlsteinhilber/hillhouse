@@ -24,11 +24,11 @@
         "RADIO",
         "TV",
         "LIBRARY",
-        "SOURCE 4",
-        "SOURCE 5",
-        "SOURCE 6",
-        "SOURCE 7",
-        "SOURCE 8"
+        "",
+        "",
+        "",
+        "",
+        ""
     );
 	
 ?>
@@ -110,7 +110,6 @@
                     console.log("Request Failed: " + err);
                 });
 		};
-		
 		
         
         function getStatus(chan,status) {
