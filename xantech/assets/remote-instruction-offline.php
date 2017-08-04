@@ -56,7 +56,7 @@ case 'PR':
 	break;	
 case 'ZD':
 	if($commandMode== "Q"){
-		$devResponse='?PR'.mt_rand(0,1).' SS'.mt_rand(1,8).' VO'.mt_rand(0,38).' MU'.mt_rand(0,1).' TR'.mt_rand(0,14).' BS'.mt_rand(0,14).' BA'.mt_rand(0,63).' LS0 PS0+';
+		$devResponse='?PR'.mt_rand(0,1).' SS'.mt_rand(1,4).' VO'.mt_rand(0,38).' MU'.mt_rand(0,1).' TR'.mt_rand(0,14).' BS'.mt_rand(0,14).' BA'.mt_rand(0,63).' LS0 PS0+';
 		$statusStruct='{ ';
 		$statusArray=explode(' ',$devResponse);
 		if( sizeof($statusArray) > 4){
